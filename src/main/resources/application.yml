@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: 삭제함
-    username: 
-    password: 
+    username: 삭제함
+    password: 삭제함
 
   jpa:
       hibernate:
@@ -18,7 +18,7 @@ spring:
         registration:
           kakao:
             client-id: 삭제함
-            client-secret: 
+            client-secret: 삭제함
             redirect-uri: http://localhost:8080/oauth/kakao
             client-authentication-method: POST
             authorization-grant-type: authorization_code
@@ -42,7 +42,7 @@ spring:
 
 
 jwt:
-  secretKey: 
+  secretKey: 삭제함
 
   access:
     expiration: 3600000 # 1시간(60분) (1000L(ms -> s) * 60L(s -> m) * 60L(m -> h))
